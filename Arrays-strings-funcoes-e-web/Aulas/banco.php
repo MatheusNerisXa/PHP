@@ -24,6 +24,7 @@ $contasCorrentes['720.067.870-80'] = depositar(
 );
 
 $contasCorrentes['907.627.830-01'] = sacar($contasCorrentes['907.627.830-01'],300);
+unset($contasCorrentes['907.627.830-01']);
 $contasCorrentes['443.931.950-51'] = sacar($contasCorrentes['443.931.950-51'],100);
 
 foreach ($contasCorrentes as $cpf => $conta){
