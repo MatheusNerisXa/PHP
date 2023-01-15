@@ -27,5 +27,6 @@ $contasCorrentes['907.627.830-01'] = sacar($contasCorrentes['907.627.830-01'],30
 $contasCorrentes['443.931.950-51'] = sacar($contasCorrentes['443.931.950-51'],100);
 
 foreach ($contasCorrentes as $cpf => $conta){
-    echo  exibeMensagem("$cpf {$conta['titular']} {$conta['saldo']}");
+    ['titular' => $titular, 'saldo' => $saldo] = $conta;
+    echo  exibeMensagem("$cpf $titular $saldo");
 }
