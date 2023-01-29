@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP">
+      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Conta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Cpf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Titular.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/primeiro-teste.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/primeiro-teste.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/conta.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/conta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/primeiro-teste.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/banco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/conta.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,16 @@
       <recent name="$PROJECT_DIR$/PHP: conceitos, lidando com dados, loops e mais" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="banco.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/banco.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.banco.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +79,9 @@
       <workItem from="1673741356406" duration="5296000" />
       <workItem from="1673778954574" duration="113000" />
       <workItem from="1674397287091" duration="9727000" />
-      <workItem from="1674470504281" duration="1520000" />
+      <workItem from="1674470504281" duration="3176000" />
+      <workItem from="1674774047984" duration="198000" />
+      <workItem from="1674774298946" duration="12417000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro arquivo PHP">
       <created>1673718464753</created>
