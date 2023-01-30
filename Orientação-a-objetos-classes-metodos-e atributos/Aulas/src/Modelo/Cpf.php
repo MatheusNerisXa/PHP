@@ -1,4 +1,5 @@
 <?php
+namespace Alura\Banco\Modelo;
 
 class Cpf
 {
@@ -13,6 +14,5 @@ class Cpf
     {
         return $this->cpf;
     }
-
 
 }
