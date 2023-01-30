@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP">
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Conta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Cpf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Titular.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/bonificacoes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/ContaCorrente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Service/ControladorDeBonificacoes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/primeiro-teste.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/banco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/conta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/Conta.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/Conta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/ContaPoupanca.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/ContaPoupanca.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/teste-saque.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/teste-saque.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +85,7 @@
       <workItem from="1674470504281" duration="3176000" />
       <workItem from="1674774047984" duration="198000" />
       <workItem from="1674774298946" duration="12417000" />
+      <workItem from="1675071333931" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro arquivo PHP">
       <created>1673718464753</created>

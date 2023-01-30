@@ -6,7 +6,7 @@ class Pessoa
     protected string $nome;
     protected Cpf $cpf;
 
-    public function __construct(string $nome, Cpf $cpf)
+    public function __contruct(string $nome, Cpf $cpf)
     {
         $this->validaNomeTitular($nome);
         $this->nome = $nome;
