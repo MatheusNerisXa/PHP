@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP">
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/autenticacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/enderecos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/AcessoPropriedades.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Autenticavel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Desenvolvedor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Diretor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/EditorVideo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Gerente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Service/Autenticador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/escrevendo-na-tela.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/bonificacoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/bonificacoes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/Titular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Cpf.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Cpf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Endereco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Funcionario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Pessoa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Service/ControladorDeBonificacoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Service/ControladorDeBonificacoes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/matheusneris/PHP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/matheusneris/PHP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario" />
