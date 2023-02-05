@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP">
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/autenticacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/enderecos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/AcessoPropriedades.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Autenticavel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Desenvolvedor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Diretor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/EditorVideo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Gerente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Service/Autenticador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/console-para-arquivo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/bonificacoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/bonificacoes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Conta/Titular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Cpf.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Cpf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Endereco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario/Funcionario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Pessoa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Service/ControladorDeBonificacoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Service/ControladorDeBonificacoes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
