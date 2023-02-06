@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP">
-      <change afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/arquivos-para-csv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/httpbin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/ls.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/projetos.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/spl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/leitor-zip.php" beforeDir="false" afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/leitor-zip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/arquivos-para-csv.php" beforeDir="false" afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/arquivos-para-csv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/cursos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/cursos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/spl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Io-arquivos-streams/Aulas/spl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
