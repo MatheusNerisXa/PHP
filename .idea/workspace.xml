@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP">
-      <change afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/excecao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
