@@ -1,0 +1,7 @@
+[07-Feb-2023 23:36:51 UTC] PHP Warning:  Undefined variable $variavel in /Users/matheusneris/PHP/Exceptions-tratamento-erros/Aulas/erros.php on line 8
+[07-Feb-2023 23:36:51 UTC] PHP Warning:  Undefined variable $array in /Users/matheusneris/PHP/Exceptions-tratamento-erros/Aulas/erros.php on line 9
+[07-Feb-2023 23:36:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/matheusneris/PHP/Exceptions-tratamento-erros/Aulas/erros.php on line 9
+[07-Feb-2023 23:36:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CONTANTE" in /Users/matheusneris/PHP/Exceptions-tratamento-erros/Aulas/erros.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/matheusneris/PHP/Exceptions-tratamento-erros/Aulas/erros.php on line 10
