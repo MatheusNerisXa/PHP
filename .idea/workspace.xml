@@ -8,9 +8,16 @@
     <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP" />
 =======
     <list default="true" id="7540cf1c-b6ab-4389-b1c2-bbac9be5d189" name="Changes" comment="Primeiro arquivo PHP">
-      <change afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/minha-excecao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/erros.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/finally.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/Conta/NomeCurtoException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/Conta/SaldoInsuficienteException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/teste-deposito.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/pilha.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/pilha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/CPF.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/CPF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/Conta/Conta.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/Conta/Conta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/src/Modelo/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/teste-saque.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/teste-saque.php" afterDir="false" />
     </list>
 >>>>>>> exception-tratamento-erros
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas" />
       <recent name="$PROJECT_DIR$/Orientação-a-objetos-classes-metodos-e atributos/Aulas/src/Modelo/Funcionario" />
       <recent name="$PROJECT_DIR$/Arrays-strings-funcoes-e-web/Aulas" />
       <recent name="$PROJECT_DIR$/PHP: conceitos, lidando com dados, loops e mais/Aulas" />
@@ -86,6 +94,9 @@
       <workItem from="1674774047984" duration="198000" />
       <workItem from="1674774298946" duration="12417000" />
       <workItem from="1675071333931" duration="10124000" />
+      <workItem from="1675762757654" duration="909000" />
+      <workItem from="1675763682857" duration="220000" />
+      <workItem from="1675765137566" duration="3581000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro arquivo PHP">
       <created>1673718464753</created>
@@ -130,6 +141,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro arquivo PHP" />
     <option name="LAST_COMMIT_MESSAGE" value="Primeiro arquivo PHP" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Exceptions-tratamento-erros/Aulas/teste-saque.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PHP$recapitulando_php.dat" NAME="recapitulando.php Coverage Results" MODIFIED="1673820108357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
