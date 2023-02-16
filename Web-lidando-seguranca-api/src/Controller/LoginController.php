@@ -32,6 +32,7 @@ class LoginController implements Controller
          }
 
         if ($correctPassword) {
+            $_SESSION['logado'] = true;
             header('Location: /');
         } else {
             header('Location: /login?sucesso=0');
