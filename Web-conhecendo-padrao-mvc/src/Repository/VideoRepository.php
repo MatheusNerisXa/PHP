@@ -76,6 +76,4 @@ class VideoRepository
 
         return $video;
     }
-
-
 }
