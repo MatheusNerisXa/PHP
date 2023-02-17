@@ -2,8 +2,12 @@
 
 namespace Alura\Mvc\Controller;
 
+use Alura\Mvc\Helper\FlashMessageTrait;
+
 class LoginController implements Controller
 {
+    use FlashMessageTrait;
+
     private \PDO $pdo;
 
     public function __construct()
@@ -24,18 +28,20 @@ class LoginController implements Controller
 
         $userData = $statement->fetch(\PDO::FETCH_ASSOC);
         $correctPassword = password_verify($password, $userData['password'] ?? '');
-      if(password_needs_rehash($userData['password'],PASSWORD_ARGON2ID)){
-           $statement = $this->pdo->prepare('UPDATE users SET password = ? WHERE id = ?');
-           $statement->bindValue(1, password_hash($password, PASSWORD_ARGON2ID));
-           $statement->bindValue(1, password_hash(2, $userData['id']));
-           $statement->execute();
-         }
 
         if ($correctPassword) {
+            if(password_needs_rehash($userData['password'],PASSWORD_ARGON2ID)){
+            $statement = $this->pdo->prepare('UPDATE users SET password = ? WHERE id = ?');
+            $statement->bindValue(1, password_hash($password, PASSWORD_ARGON2ID));
+            $statement->bindValue(1, password_hash(2, $userData['id']));
+            $statement->execute();
+         }
+
             $_SESSION['logado'] = true;
             header('Location: /');
         } else {
-            header('Location: /login?sucesso=0');
+            $this->addErrorMessage('Usuário ou senha inválidos');
+            header('Location: /login');
         }
     }
 }
