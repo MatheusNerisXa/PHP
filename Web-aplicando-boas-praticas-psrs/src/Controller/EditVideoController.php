@@ -6,6 +6,8 @@ namespace Alura\Mvc\Controller;
 
 use Alura\Mvc\Entity\Video;
 use Alura\Mvc\Repository\VideoRepository;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
 
 class EditVideoController implements Controller
 {
@@ -13,26 +15,29 @@ class EditVideoController implements Controller
     {
     }
 
-    public function processaRequisicao(): void
+    public function processaRequisicao(ServerRequestInterface $request): ResponseInterface
     {
-        $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+        $queryParams = $request->getQueryParams();
+        $id = filter_var($queryParams['id'], FILTER_VALIDATE_INT);
         if ($id === false || $id === null) {
-            header('Location: /?sucesso=0');
-            return;
+            return new Response(302, [
+                'Location' => '/'
+            ]);
         }
 
-        $url = filter_input(INPUT_POST, 'url', FILTER_VALIDATE_URL);
+        $queryParams = $request->getParsedBody();
+        $url = filter_var($queryParams['url'],FILTER_VALIDATE_URL);
         if ($url === false) {
-            header('Location: /?sucesso=0');
-            return;
+            return new Response(302, [
+                'Location' => '/'
+            ]);
         }
-        $titulo = filter_input(INPUT_POST, 'titulo');
+        $titulo = filter_var($queryParams['titulo']);
         if ($titulo === false) {
-            header('Location: /?sucesso=0');
-            return;
+            return new Response(302, [
+                'Location' => '/'
+            ]);
         }
-
-
         $video = new Video($url, $titulo);
         $video->setId($id);
 
@@ -48,9 +53,13 @@ class EditVideoController implements Controller
         $success = $this->videoRepository->update($video);
 
         if ($success === false) {
-            header('Location: /?sucesso=0');
+            return new Response(302, [
+                'Location' => '/'
+            ]);
         } else {
-            header('Location: /?sucesso=1');
+            return new Response(302, [
+                'Location' => '/'
+            ]);
         }
     }
 }
